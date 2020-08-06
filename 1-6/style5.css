@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 600px;
+}
+
+.h {
+    height: 150px;
+}
+
+.header {
+    background-color: #ffff00;
+}
+
+.main11 {
+    background-color: #33ffff;
+    width: 200px;
+    float: left;
+}
+
+.main12 {
+    background-color: #ff0000;
+    width: 200px;
+    float: left;
+}
+
+.main13 {
+    background-color: #0000ff;
+    width: 200px;
+    float: left;
+}
+
+.main21 {
+    background-color: #00ff00;
+    width: 500px;
+    float: left;
+}
+
+.main22 {
+    background-color: #ff00ff;
+    width: 100px;
+    float: left;
+}
+
+.footer {
+    background-color: #33ffff;
+}

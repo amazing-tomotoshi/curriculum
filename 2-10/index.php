@@ -1,6 +1,7 @@
 <?php
 function tyouhou($tate, $yoko, $takasa){
-    return $tate.'cm × '.$yoko.'cm × '.$takasa.'cm = '.($tate*$yoko*$takasa).'cm3<br>';
+    $ans=$tate*$yoko*$takasa;
+    return $tate.'cm × '.$yoko.'cm × '.$takasa.'cm = '.$ans.'cm3<br>';
 }
 
 echo tyouhou(5,10,8);
